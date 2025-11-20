@@ -1,25 +1,144 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Series de [Nombre del estudiante]</title>
+    <title>Peliculas y Series de Oliver Romo</title>
 </head>
+<style>
+    body {
+        background: rgb(33, 33, 33);
+        color: white;
+    }
+    header {
+        background: rgba(0, 0, 0, 0.318);
+        border-radius: 8px;
+        text-align: center;
+        color:rgb(231, 127, 127)
+    }
+    p {
+        padding: 28px;
+        color: rgb(156, 156, 156);
+    }
+    nav {
+        background: rgba(0, 0, 0, 0.521);
+        color: rgb(144, 144, 144);
+        border: white solid 4px;
+        border-radius: 8px;
+        padding: 28px;
+        text-align: left;
+    }
+    img {
+        border-radius: 8px;
+        border: white solid 2px;
+    }
+    video {
+        border-radius: 8px;
+        border: white solid 2px;
+    }
+    footer {
+        color: gray;
+        background: rgba(0, 0, 0, 0.311);
+        border-radius: 8px;
+        text-align: center;
+    }
+</style>
+
 <body>
     <header>
-        <h1>Series de [Nombre del estudiante]</h1>
+        <h1>Series de Oliver Romo</h1>
+
+        <body>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="movies.html">Películas</a></li>
+                    <li><a href="series.html">Series</a></li>
+                </ul>
+            </nav>
+        </body>
     </header>
     <main>
         <section>
-            <h2>Series Favoritas</h2>
+            <h2>Géneros disponibles</h2>
             <ul>
-                <li>Breaking Bad</li>
-                <li>Stranger Things</li>
-                <li>The Crown</li>
-                <li>Game of Thrones</li>
-                <li>The Mandalorian</li>
+                <li>Drama</li>
+                <li>Accion</li>
             </ul>
         </section>
+        <section>
+            <h2>Top 2 más populares</h2>
+            <ol>
+                <li>Doctor Milagro (2004) - ★★★★★</li>
+                <li>La Reina del sur (2008) - ★★★★☆</li>
+            </ol>
+        </section>
+        <section>
+            <h2>
+                Doctor Milagro
+            </h2>
+            <img src="assets/image/DoctorMilagro.jpg" alt="Portada de DoctorMilagro" height="412px" width="256px">
+            <p>
+                La historia sigue a Ali Vefa, un joven médico con un trastorno del espectro autista y síndrome del
+                sabio. Creció aislado, subestimado y marcado por traumas, pero con una inteligencia extraordinaria para
+                la medicina. Cuando ingresa como residente en un prestigioso hospital, debe ganarse el respeto de un
+                entorno que no entiende su forma de pensar ni de relacionarse. Entre prejuicios, choques con colegas y
+                momentos de brillantez quirúrgica, Ali intenta demostrar que su diferencia no lo limita, sino que le da
+                una mirada única para salvar vidas. La serie combina drama emocional, dilemas éticos y crecimiento
+                personal mientras él aprende a encontrar su lugar en un mundo que suele verlo como una excepción.
+            </p>
+            <ul>
+                <li>Director: Yusuf Pirhasan, Aysun Akyüz y Altan Dönmez.</li>
+                <li>Año: 2019–2021</li>
+                <li>Género: drama médico, con fuerte carga emocional</li>
+                <li>Duración: 110 y 130 minutos,</li>
+            </ul>
+            <h3>Tráiler</h3>
+            <video controls width="100%">
+                <source src="assets/video/DoctorMilagro.mp4" type="video/mp4">
+                Tu navegador no soporta el elemento video.
+            </video>
+            <h3>Tema Principal</h3>
+            <audio controls>
+                <source src="assets/audio/DoctorMilagro.m4a" type="audio/mpeg">
+                Tu navegador no soporta el elemento audio.
+            </audio>
+        </section>
+        <section>
+            <h2>
+                La reina del sur
+            </h2>
+            <img src="assets/image/LaReinaDelSur.jpg" alt="Portada de La reina del sur" height="412px" width="256px">
+            <p>
+                La historia sigue a Teresa Mendoza, una joven mexicana que vive una vida sencilla hasta que su novio,
+                ligado al narcotráfico, es asesinado. Obligada a huir para sobrevivir, cruza fronteras, cae en redes
+                criminales y aprende a moverse en un mundo donde la traición es la norma. Con astucia y una fuerza que
+                ni ella misma imaginaba, Teresa asciende desde lo más bajo hasta convertirse en una de las figuras más
+                poderosas del tráfico internacional. Su camino está marcado por pérdidas, alianzas frágiles, amores
+                complicados y una lucha constante por no perder su humanidad en medio de la violencia y el poder.
+            </p>
+            <ul>
+                <li>Director: Walter Doehner y Mauricio Cruz.</li>
+                <li>Año: 2011 (T1), 2019 (T2), 2022 (T3)</li>
+                <li>Género: drama, narco-thriller, acción</li>
+                <li>Duración: 40 y 50 minutos</li>
+            </ul>
+            <h3>Tráiler</h3>
+            <video controls width="100%">
+                <source src="assets/video/La reina del sur.mp4" type="video/mp4">
+                Tu navegador no soporta el elemento video.
+            </video>
+            <h3>Tema Principal</h3>
+            <audio controls>
+                <source src="assets/audio/Reina del sur.m4a" type="audio/mpeg">
+                Tu navegador no soporta el elemento audio.
+            </audio>
+        </section>
     </main>
+    <footer>
+        <p>Creado por Oliver - 2025</p>
+    </footer>
 </body>
+
 </html>
